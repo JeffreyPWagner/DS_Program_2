@@ -18,6 +18,7 @@ public class Main {
                     t2.start();
                     t1.join();
                     t2.join();
+                    System.out.println();
                 } else if (taskNumber.equals("2")) {
                     Thread1_2 t1 = new Thread1_2();
                     Thread2_2 t2 = new Thread2_2();
@@ -25,6 +26,7 @@ public class Main {
                     t1.start();
                     t1.join();
                     t2.join();
+                    System.out.println();
                 } else if (taskNumber.equals("3")) {
                     Thread1_3 t1 = new Thread1_3();
                     Thread2_3 t2 = new Thread2_3();
@@ -32,6 +34,7 @@ public class Main {
                     t1.start();
                     t1.join();
                     t2.join();
+                    System.out.println();
                 } else if (taskNumber.equals("end")) {
                     break;
                 } else {

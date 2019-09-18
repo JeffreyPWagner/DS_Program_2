@@ -6,7 +6,7 @@ public class Thread2_3 extends Thread{
             try {
                 for (int i = 0; i < 10; i++) {
                     Main.lock.wait();
-                    System.out.println("2");
+                    System.out.print("2");
                     Main.lock.notify();
                 }
             } catch (Exception e) {
